@@ -18,6 +18,7 @@
 		8965E5CF20C683040088786A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8965E5CE20C683040088786A /* main.m */; };
 		8965E5D920C683040088786A /* ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8965E5D820C683040088786A /* ToolsTests.m */; };
 		8965E5E420C683040088786A /* ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8965E5E320C683040088786A /* ToolsUITests.m */; };
+		8965E5F320C6846E0088786A /* JJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8965E5F120C6846E0088786A /* JJTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		8965E5DF20C683040088786A /* ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8965E5E320C683040088786A /* ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsUITests.m; sourceTree = "<group>"; };
 		8965E5E520C683040088786A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8965E5F120C6846E0088786A /* JJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTextField.m; sourceTree = "<group>"; };
+		8965E5F220C6846E0088786A /* JJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTextField.h; sourceTree = "<group>"; };
 		990992090ED5D2109102C455 /* Pods-ToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToolsTests/Pods-ToolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3AF196178C1E71EC3AC771D /* Pods-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DE55DBDE58E0DACB563571 /* libPods-ToolsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToolsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +125,8 @@
 				8965E5C020C683030088786A /* AppDelegate.m */,
 				8965E5C220C683030088786A /* ViewController.h */,
 				8965E5C320C683030088786A /* ViewController.m */,
+				8965E5F220C6846E0088786A /* JJTextField.h */,
+				8965E5F120C6846E0088786A /* JJTextField.m */,
 				8965E5C520C683030088786A /* Main.storyboard */,
 				8965E5C820C683040088786A /* Assets.xcassets */,
 				8965E5CA20C683040088786A /* LaunchScreen.storyboard */,
@@ -363,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8965E5C420C683030088786A /* ViewController.m in Sources */,
+				8965E5F320C6846E0088786A /* JJTextField.m in Sources */,
 				8965E5CF20C683040088786A /* main.m in Sources */,
 				8965E5C120C683030088786A /* AppDelegate.m in Sources */,
 			);
