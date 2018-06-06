@@ -10,6 +10,7 @@ target 'Tools' do
 
 pod 'SDWebImage'
 pod 'Masonry', :inhibit_warnings => true
+pod 'AFNetworking', :inhibit_warnings => true
   target 'ToolsTests' do
     inherit! :search_paths
     # Pods for testing
