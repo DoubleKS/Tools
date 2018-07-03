@@ -1,0 +1,27 @@
+
+[
+ {
+ "className" : "YDHomeVC",
+ "title" : "首页",
+ "imageName" : "tab_home_normal",
+ "selectImageName" : "tab_home_sel"
+ },
+ {
+ "className" : "YDCreatVC",
+ "title" : "创建",
+ "imageName" : "tab_creat_nor",
+ "selectImageName" : "tab_creat_sel"
+ },
+ {
+ "className" : "YDProductListVC",
+ "title" : "作品",
+ "imageName" : "tab_producttion_nor",
+ "selectImageName" : "tab_producttion_sel"
+ },
+ {
+ "className" : "YDPersonalVC",
+ "title" : "个人",
+ "imageName" : "tab_personal_nor",
+ "selectImageName" : "tab_personal_sel"
+ }
+ ]
